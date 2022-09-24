@@ -1,0 +1,45 @@
+fcopy.h :: Documentação
+
+---------------------------------------
+
+fcopy(char *source, char *destination);
+
+Provém um método muito rápido para a cópia de arquivos texto
+
+Exemplo:
+fcopy("arquivo1.txt", "cópia de arquivo1.txt");
+
+---------------------------------------
+
+bfcopy(char *source, char *destination);
+
+Provém um método rápido para a cópia de arquivos binário
+
+Example:
+bfcopy("conteúdo.tar.gz", "cópia de conteúdo.tar.gz");
+
+---------------------------------------
+
+OBSERVAÇÃO: Este software foi somente testado no Windows, não tendo eficácia comprovada no Linux ou/e MacOS X
+_____________________________________________________________________________________________
+
+fcopy.h :: Licença
+
+
+Copyright (c) 2008 Thiago Silveira <durubs at gmail dot com>
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+    1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+
+    2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
